@@ -1,0 +1,84 @@
+.identification {
+    /* background:  #fff; */
+    border-radius:  5px;
+    padding: 20px 0px;
+}
+
+.identification .header_block {
+    display:  table;
+    width:  100%;
+    padding: 0 25px;
+    border-bottom:  1px solid #fff;
+    margin-bottom: 30px;
+}
+
+.identification .header_block h2 {
+    margin-top:  0;
+    float:  left;
+    color: #222;
+    font-weight: normal;
+}
+
+.identification .block {
+    margin: 0 25px 30px;    
+}
+
+.identification .block-items {
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.36);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.36);
+    padding: 25px 25px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.identification .block-item {
+    display:  inline-block;
+    width:  25%;
+    padding:  10px;
+}
+
+.identification .block-item input,.block-item select {
+    width:  100%;
+    border:  none;
+    border-bottom: 2px solid #aaacae;
+    padding:  15px;
+    color:  #656667;
+    background: #fff;
+    font-weight: bold;
+}
+
+.identification .block-item input:focus,.block-item select:focus {
+    border-bottom: 2px solid #2080e0;
+}
+
+.identification input[type="submit"] {
+    background:  #fac45e;
+    border:  unset;
+    padding:  15px 45px;
+    border-radius:  5px;
+    color:  #fff;
+}
+
+table, th, td {
+    border: none
+}
+table {
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0
+}
+tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12)
+}
+td, th {
+    padding: 15px 5px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px
+}
+.DayPickerInput {
+    width: 100%;
+}

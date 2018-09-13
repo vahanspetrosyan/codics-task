@@ -1,0 +1,90 @@
+{
+  "eid_cards": [
+    {
+      "id": 1,
+      "eid_number": "23",
+      "eid_issue_date": "2018-12-12",
+      "eid_expiry_date": "2019-12-12",
+      "uae_visa_no": "890"
+    },
+    {
+      "id": 2,
+      "eid_number": "1",
+      "eid_issue_date": "2017-12-12",
+      "eid_expiry_date": "2018-12-12",
+      "uae_visa_no": "890"
+    },
+    {
+      "id": 3,
+      "eid_number": "54",
+      "eid_issue_date": "2015-02-12",
+      "eid_expiry_date": "2016-02-12",
+      "uae_visa_no": "890"
+    },
+    {
+      "id": 4,
+      "eid_number": "65",
+      "eid_issue_date": "2016-10-10",
+      "eid_expiry_date": "2018-10-10",
+      "uae_visa_no": "890"
+    },
+    {
+      "id": 5,
+      "eid_number": "3",
+      "eid_issue_date": "2018-01-12",
+      "eid_expiry_date": "2019-03-12",
+      "uae_visa_no": "890"
+    },
+    {
+      "id": 6,
+      "eid_number": "9",
+      "eid_issue_date": "2017-10-08",
+      "eid_expiry_date": "2019-10-08",
+      "uae_visa_no": "90"
+    },
+    {
+      "id": 7,
+      "eid_number": "11",
+      "eid_issue_date": "2018-02-05",
+      "eid_expiry_date": "2019-02-05",
+      "uae_visa_no": "810"
+    },
+    {
+      "id": 8,
+      "eid_number": "213",
+      "eid_issue_date": "2018-06-06",
+      "eid_expiry_date": "2019-06-06",
+      "uae_visa_no": "80"
+    }
+  ],
+  "passports": [
+    {
+      "id": 1,
+      "passport_no": "23",
+      "p_issue_date": "2018-12-12",
+      "p_expiry_date": "2019-12-12",
+      "p_iss_place": "Armenia"
+    }
+  ],
+  "personal": {
+    "famaly_name": "Some fam name",
+    "guardian_cif": "",
+    "salution": "Solution 2",
+    "full_name": "Vahan Petrosyan",
+    "short_name": "Vahan",
+    "first_name": "Vahan",
+    "middle_name": "",
+    "third_name": "",
+    "region_of_crimea": "Yerevan",
+    "language": "Armenian",
+    "gender": "Male",
+    "date_of_birth": "",
+    "mothers_name": "",
+    "marital_status": "Marital status 2",
+    "no_of_dpendents": "5",
+    "accomodation": "",
+    "pep": "PEP 3",
+    "aml": "",
+    "central_bank": "89547"
+  }
+}

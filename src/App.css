@@ -1,0 +1,86 @@
+.left_menu {
+    width: 300px;
+    float: left;
+    display: none;
+}
+
+.left_menu.show {
+  display: block;
+}
+
+.left_menu a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+    margin-bottom: 10px;
+}
+
+.left_menu a.active,
+.left_menu a:hover {
+    background: #0352a1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.right-content {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.right-content.not_full {
+  width: calc(100% - 300px);
+}
+
+.all-content {
+    margin-top: 40px;
+}
+
+.header {
+    height: 70px;
+    background: #fff;
+    width: 100%;
+    padding: 15px 15px;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.67);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.67);
+  box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.67);
+  line-height: 40px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    padding-right: 100px;
+  }
+  
+  .menu-toggle {
+    background: none;
+    border: unset;
+    font-size: 18px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .notes-toggle {
+    background: none;
+    border: unset;
+    font-size: 18px;
+    color: #ccc;
+    float: left;
+    line-height: 40px;
+    cursor: pointer;
+  }
+  
+  .time-container {
+    float: left;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #ccc;
+    line-height: 40px;
+  }

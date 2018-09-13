@@ -1,0 +1,61 @@
+.personal-detail .block {
+    margin: 0 25px 30px;
+    background: #f9f9f9;
+    padding: 25px 25px 30px;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.36);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.36);
+}
+
+.personal-detail {
+    background:  #fff;
+    border-radius:  5px;
+    padding: 20px 0px;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+}
+
+.personal-detail .header_block {
+    display:  table;
+    width:  100%;
+    padding: 0 25px;
+    border-bottom:  1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.personal-detail .header_block h2 {
+    margin-top:  0;
+    float:  left;
+}
+
+.personal-detail .header_block input[type="submit"] {
+    float:  right;
+    background: #2080e0;
+    border:  none;
+    cursor:  pointer;
+    padding: 10px 45px;
+    border-radius:  3px;
+    color:  #fff;
+    font-size: 14px;
+}
+
+.personal-detail .block-item {
+    display:  inline-block;
+    width:  25%;
+    padding:  10px;
+}
+
+.personal-detail .block-item input,.block-item select {
+    width:  100%;
+    border:  none;
+    border-bottom: 2px solid #aaacae;
+    padding:  15px;
+    color:  #656667;
+    background: #f9f9f9;
+    font-weight: bold;
+}
+
+.personal-detail .block-item input:focus,.block-item select:focus {
+    border-bottom: 2px solid #2080e0;
+}
